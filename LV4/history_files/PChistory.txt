@@ -1,0 +1,765 @@
+    1  sudo timedatectl set-local-rtc 1 --adjust-system-clock
+    2  sudo apt update && sudo apt upgrade -y
+    3  reboot
+    4  sudo apt-get install git
+    5  git clone
+    6  cat ~/.ssh/id_rsa.pub
+    7  ssh-keygen -o -t rsa -C "karl.domagoj@gmail.com" -b 4096
+    8  cat ~/.ssh/id_rsa.pub | clip
+    9  sudo apt install geomview
+   10  cat ~/.ssh/id_rsa.pub | clip
+   11  cat ~/.ssh/id_rsa.pub
+   12  git clone
+   13  git clone --https://gitlab.com/domagojkarl/embedded_linux
+   14  git clone https://gitlab.com/domagojkarl/embedded_linux
+   15  ls
+   16  cd embedded_linux
+   17  ls
+   18  git branch -b rad_na_vjezbi
+   19  git branch -b
+   20  ls
+   21  git
+   22  git branch
+   23  git branch -b
+   24  git branch -ba
+   25  git branch -b
+   26  ls
+   27  cd LV1
+   28  ls
+   29  cd
+   30  cd embedded_linux
+   31  ls
+   32  git
+   33  git branch -b rad_na_vjezbi
+   34  ls
+   35  git branch rad_na_vjezbi
+   36  ls
+   37  git branch
+   38  git checkout rad_na_vjezbi 
+   39  git branch
+   40  ls
+   41  cd LV1
+   42  ls
+   43  cd resources
+   44  ls
+   45  ls [a-z]*
+   46  ls -name '[a-z]*'
+   47  ls -n '[a-z]*'
+   48  man ls
+   49  ls | grep '[a-z]*'
+   50  cd
+   51  ls
+   52  cd /dev
+   53  ls
+   54  cd
+   55  cd embedded_linux
+   56  ls
+   57  cd LV1
+   58  cd resources
+   59  ls
+   60  cd test9
+   61  cp *[9]* /test9
+   62  mkdir test9
+   63  ls
+   64  cp *[9]* /test9
+   65  cp *[9]* embedded_linux/LV1/resources/test9
+   66  cp *[9]* /embedded_linux/LV1/resources/test9
+   67  ls
+   68  pwd
+   69  ls
+   70  pwd
+   71  cp /home/profesor/embedded_linux/LV1/resources/*[9]* /home/profesor/embedded_linux/LV1/resources/test9
+   72  ls
+   73  cd test9
+   74  ls
+   75  cd.
+   76  .
+   77  ..
+   78  cd ..
+   79  ls
+   80  rm *[9]*
+   81  ls
+   82  cd test9
+   83  ls
+   84  git branch
+   85  cd ..
+   86  cd. .
+   87  cd ..
+   88  ls
+   89  cd ..
+   90  cat .git/config 
+   91  ls
+   92  cd LV1
+   93  ls
+   94  cd resources
+   95  ls
+   96  mkdir Test
+   97  ls
+   98  pwd
+   99  cp /home/profesor/embedded_linux/LV1/resources/*test_datoteka* /home/profesor/embedded_linux/LV1/resources/Test
+  100  ls
+  101  cd Test
+  102  ls
+  103  cd ..
+  104  ls
+  105  mv /home/profesor/embedded_linux/LV1/resources/Test /home/profesor/embedded_linux/LV1/resources/test
+  106  ls
+  107  man rmdir
+  108  rmdir test
+  109  rmdir -v test
+  110  man rmdir
+  111  rm -rf test
+  112  ls
+  113  cd ..
+  114  pwd
+  115  cp -r /home/profesor/embedded_linux/LV1 /home/profesor/embedded_linux/LV1_temp
+  116  ls
+  117  cd LV1_temp
+  118  ls
+  119  cd resources
+  120  ls
+  121  cd ..
+  122  ls
+  123  rm -rf LV1_temp
+  124  ls
+  125  cd LV1
+  126  ls
+  127  cd resources/
+  128  ls
+  129  rm *test_datoteka*
+  130  ls
+  131  git commit
+  132  git commit domagojkarl@gitlab.com
+  133  git config user.name domagojkarl
+  134  git commit
+  135  git config user.name "domagojkarl"
+  136  git config user.email "karl.domagoj@gmail.com"
+  137  git status
+  138  got commit
+  139  git commit
+  140  git push
+  141  git status
+  142  git
+  143  git branch
+  144  git push
+  145  ls
+  146  git push --set-upstream origin rad_na_vjezbi
+  147  ls
+  148  ls -la
+  149  cat mbox.txt
+  150  cat more mbox.txt
+  151  man cat
+  152  cat -more mbox.txt
+  153  more mbox.txt
+  154  cat mbox.short.txt | grep '*[@][a-z].[a-z]'
+  155  ls
+  156  cat mbox-short.txt | grep '*[@][a-z].[a-z]'
+  157  ls
+  158  cat mbox-short.txt | grep '@'
+  159  grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" mbox-short.txt
+  160  grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" mbox-short.txt > emails.txt
+  161  ls
+  162  cat emails.txt
+  163  ls -la
+  164  chmod 444 emails.txt
+  165  ls -la
+  166  grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" mbox.txt > emails1.txt
+  167  diff emails.txt emails1.txt
+  168  ls
+  169  cd test9
+  170  ls
+  171  cat test_datoteka_9.txt
+  172  cd ..
+  173  grep -rlw -e "*9*" /test9
+  174  pwd
+  175  grep -rlw -e "*9*" /home/profesor/embedded_linux/LV1/resources/test9
+  176  ls
+  177  cd test9
+  178  ls
+  179  grep -rlw "*9*" /home/profesor/embedded_linux/LV1/resources/test9
+  180  grep "*9*" /home/profesor/embedded_linux/LV1/resources/test9
+  181  grep -rwl "9" /home/profesor/embedded_linux/LV1/resources/test9
+  182  grep -r "9" /home/profesor/embedded_linux/LV1/resources/test9
+  183  grep -r "[1-9]9[1-9]" /home/profesor/embedded_linux/LV1/resources/test9
+  184  mdfind "9" /home/profesor/embedded_linux/LV1/resources/test9
+  185  grep -oh "9" /home/profesor/embedded_linux/LV1/resources/test9
+  186  grep -roh "9" /home/profesor/embedded_linux/LV1/resources/test9
+  187  grep -roh "*9" /home/profesor/embedded_linux/LV1/resources/test9
+  188  grep -roh "*[9]*" /home/profesor/embedded_linux/LV1/resources/test9
+  189  grep -roh "*9" /home/profesor/embedded_linux/LV1/resources/test9
+  190  grep -roh "9" /home/profesor/embedded_linux/LV1/resources/test9
+  191  grep -roh "[0-8]+9+[0-8]" /home/profesor/embedded_linux/LV1/resources/test9
+  192  grep -roh "9" /home/profesor/embedded_linux/LV1/resources/test9
+  193  cd ..
+  194  ls
+  195  grep -r [1-9] test9/
+  196  grep -roh "[1-9]" /home/profesor/embedded_linux/LV1/resources/test9
+  197  grep -e [1-9] test9/
+  198  grep -e [1-9] test9
+  199  grep -r -e [1-9] test9
+  200  grep -r -e *[1-9]* test9
+  201  grep -r *[1-9]* test9
+  202  grep -r [1-9]* test9
+  203  grep -r [1-9] test9
+  204  grep -rh [1-9] test9
+  205  grep -rho [1-9] test9
+  206  grep -rh [1-9] test9
+  207  grep -rh [1-9]* test9
+  208  grep -h [1-9]* test9
+  209  cd test9/
+  210  grep -h [1-9]* test9
+  211  grep -h [1-9]* 
+  212  grep -h [1-9] * 
+  213  grep -rho "[1-9]" test9
+  214  grep -r -e [1-9]
+  215  grep -r -e "1-9"
+  216  grep -e "1-9"
+  217  grep -e [1-9]
+  218  grep -r -e [1-9]
+  219  grep -rho [1-9] test9
+  220  grep -rho [1-9]
+  221  ls
+  222  cd ..
+  223  ls
+  224  nano emails.txt
+  225  ls
+  226  cd test9/
+  227  grep -e -o "[0-9]*"
+  228  grep -e -o "[0-9]*" test_datoteka_
+  229  cd ..
+  230  grep -e -o "[0-9]*" test9/
+  231  grep -r -e -o "[0-9]*" test9/
+  232  grep -r -e -o [0-9]* test9/
+  233  grep -Eoh [0-9]* test9/
+  234  ls
+  235  grep -Eoh [0-9]* test9/*
+  236  grep -Eoh [0-9]* test9/* > brojevi.txt
+  237  cat brojevi.txt
+  238  ls
+  239  rmdir test9
+  240  rmdir -rf test9
+  241  rmdir -f test9
+  242  rm -rf test9
+  243  ls
+  244  nano emails.txt
+  245  chmod 777 emails.txt
+  246  nano emails.txt
+  247  cat emails.txt
+  248  ls
+  249  chmod 444 email.txt
+  250  chmod 444 emails.txt
+  251  ls
+  252  git commit -m"druga izmjena"
+  253  git push
+  254  git checkout master
+  255  git log
+  256  history > domagojkarl.txt
+  257  git add domagojkarl.txt
+  258  git commit -m "history_file"
+  259  git push origin master
+  260  ls -la
+  261  man ls
+  262  git status
+  263  git clone https://gitlab.com/rgrbic/embedded_linux
+  264  ls
+  265  pwd
+  266  rm -rf /home/profesor/embedded_linux
+  267  ls
+  268  git clone https://gitlab.com/rgrbic/embedded_linux
+  269  cd embedded_linux/
+  270  ls
+  271  cd LV2
+  272  ls
+  273  cd solutions
+  274  ls
+  275  cd ..
+  276  cd resources/
+  277  ls
+  278  cd ..
+  279  cd..
+  280  cd ..
+  281  cd embedded_linux/
+  282  git fetch origin
+  283  cd ..
+  284  rm -rf /home/profesor/embedded_linux
+  285  git clone https://gitlab.com/domagojkarl/embedded_linux.git
+  286  cd embedded_linux/
+  287  git remote add upstream 
+  288  remote add upstream 
+  289  git remote add upstream https://gitlab.com/rgrbic/embedded_linux
+  290  git fetch upstream
+  291  ls
+  292  git merge upstream/master
+  293  git config --global user.email "karl.domagoj@gmail.com"
+  294  git config --global user.name "domagojkarl"
+  295  git merge upstream/master
+  296  ls
+  297  sudo apt-get install gcc-arm-linux-gnueabihf
+  298  ls
+  299  cd ..
+  300  git clone https://github.com/buildroot/buildroot
+  301  ls
+  302  cd buildroot/
+  303  ls
+  304  make raspberrypi3_ferit_defconfig
+  305  make menuconfig
+  306  sudo apt install libncurses-dev
+  307  make menuconfig
+  308  make
+  309  make clean
+  310  make -j9
+  311  cd
+  312  picocom -b 11520 /dev/ttyUSB0
+  313  picocom -b 115200 /dev/ttyUSB0
+  314  cd buildroot/
+  315  ls
+  316  cd output/
+  317  ls
+  318  cd images/
+  319  ls
+  320  cd ..
+  321  picocom -b 115200 /dev/ttyUSB0
+  322  sudo picocom -b 115200 /dev/ttyUSB0
+  323  cd ..
+  324  ls
+  325  cd buildroot/output/images/
+  326  ls
+  327  cd ..
+  328  cd build/rpi-firmware
+  329  cd build/
+  330  ls
+  331  cd ..
+  332  cd images/
+  333  ls
+  334  cd ..
+  335  sudo dd status=progress if=sdcard.img of=/dev/sdb
+  336  cd output/images/
+  337  sudo dd status=progress if=sdcard.img of=/dev/sdb
+  338  sudo sync
+  339  ls
+  340  cd buildroot
+  341  cd ..
+  342  picocom -b 115200 /dev/ttyUSB0
+  343  sudo picocom -b 115200 /dev/ttyUSB0
+  344  sudo apt-get install picocom
+  345  sudo apt-get install gparted
+  346  sudo apt-get install tftpd-hpa
+  347  sudo apt-get install nfs-kernel-server
+  348  top
+  349  ls
+  350  cd buildroot/
+  351  ls
+  352  sudo dd status=progress if sdcard.img of=/dev/sdb
+  353  dd --help
+  354  sudo dd status=progress if sdcard.img of=/dev/sdb
+  355  sudo dd status=progress if=sdcard.img of=/dev/sdb
+  356  ls
+  357  cd output/
+  358  ls
+  359  cd images/
+  360  ls
+  361  sudo dd status=progress if=sdcard.img of=/dev/sdb
+  362  sudo sync
+  363  sudo dd status=progress if=sdcard.img of=/dev/sdb
+  364  sudo sync
+  365  cd
+  366  ls
+  367  cd /
+  368  ls
+  369  cd var/lib/tftpboot/
+  370  ls
+  371  nano
+  372  sudo nano
+  373  ls
+  374  ping 192.170.0.100
+  375  cd
+  376  sudo tar xvjf buildroot/output/images/rootfs.tar.bz2  -C embedded_linux/LV2/solutions/nfsroot
+  377  ls
+  378  embedded_linux/
+  379  cd embedded_linux/
+  380  ls
+  381  cd LV2/
+  382  ls
+  383  cd solutions/
+  384  ls
+  385  mkdir nfsroot
+  386  ls
+  387  cd
+  388  sudo tar xvjf buildroot/output/images/rootfs.tar.bz2  -C embedded_linux/LV2/solutions/nfsroot
+  389  sudo chown -R rtk embedded_linux/LV2/solutions/nfsroot/root
+  390  sudo chown -R profesor embedded_linux/LV2/solutions/nfsroot/root
+  391  cd /
+  392  ls
+  393  cd etc/
+  394  ls
+  395  sudo nano exports
+  396  cat exports 
+  397  cd
+  398  sudo /etc/init.d/nfs-kernel-server restart
+  399  cd embedded_linux/LV2/solutions/
+  400  ls
+  401  cd nfsroot/
+  402  ls
+  403  cd
+  404  ls
+  405  cd buildroot/
+  406  ls
+  407  cd output/
+  408  ls
+  409  cd images/
+  410  ls
+  411  vim
+  412  sudo apt install vim
+  413  vim /etc/exports 
+  414  ls
+  415  pwd
+  416  cd embedded_linux/
+  417  ls
+  418  cd LV
+  419  cd LV2
+  420  ls
+  421  cd solutions/
+  422  ls
+  423  cd nfsroot/
+  424  ls
+  425  ls /var/lib/tftpboot
+  426  cd /var/lib/tftpboot/
+  427  ls
+  428  cp ~/buildroot/output/images/zImage 
+  429  cp ~/buildroot/output/images/zImage  .
+  430  sudo cp ~/buildroot/output/images/zImage  .
+  431  sudo cp ~/buildroot/output/images/bcm2710-rpi-3-b.dtb .
+  432  cat /var/log/syslog
+  433  cd
+  434  sudo nano /home/profesor/embedded_linux/LV2/solutions/nfsroot/root/proba.txt
+  435  sudo cp ~/buildroot/output/images ~/embedded_linux/LV2/solutions
+  436  cd embedded_linux/
+  437  ls
+  438  git
+  439  git status
+  440  git commit -m 'krajLV2'
+  441  git push
+  442  git checkout master
+  443  git log
+  444  git commit
+  445  git checkout
+  446  git commit
+  447  git help
+  448  git merge
+  449  git diff
+  450  git commit
+  451  git add
+  452  git add .
+  453  sudo git add .
+  454  git commit -m 'lv2gotov'
+  455  sudo git commit -m 'lv2gotov'
+  456  sudo git push
+  457  picocom -b 11520 /dev/ttyUSB0
+  458  sudo picocom -b 11520 /dev/ttyUSB0
+  459  picocom -b 11520 /dev/ttyUSB0
+  460  sudo picocom -b 11520 /dev/ttyUSB0
+  461  sudo picocom -b 115200 /dev/ttyUSB0
+  462  dmesg
+  463  sudo gparted
+  464  cd buildroot/output/images/
+  465  ls
+  466  sudo dd status=progress if sdcard.img of=/dev/sdb
+  467  sudo dd status=progress if=sdcard.img of=/dev/sdb
+  468  sudo sync
+  469  sudo systemctl poweroff 
+  470  ping 192.170.0.100
+  471  sudo apt-get install cscope
+  472  ls
+  473  cd buildroot/output/images/
+  474  ls
+  475  cd ..
+  476  ls
+  477  cd build/linux-custom
+  478  ls
+  479  cscope -Rk
+  480  cd embedded_linux/
+  481  ls
+  482  git fetch upstream
+  483  cd ..
+  484  sudo chown -R profesor embedded_linux/
+  485  cd embedded_linux/
+  486  git fetch upstream
+  487  git merge
+  488  git merge upstream/master
+  489  ls
+  490  cd LV3/
+  491  ls
+  492  nano hello_version.c 
+  493  nano Makefile 
+  494  cat Makefile 
+  495  cat hello_version.c 
+  496  cd
+  497  cd embedded_linux/LV2/solutions/nfsroot/
+  498  ls
+  499  cd root/
+  500  ls
+  501  cat proba.txt 
+  502  cd embedded_linux/LV3/
+  503  ls
+  504  pwd
+  505  cd
+  506  cd buildroot/output/build/
+  507  ls
+  508  cd linux-custom/
+  509  ls
+  510  pwd
+  511  cd
+  512  cd embedded_linux/LV3/
+  513  ls
+  514  make
+  515  nano Makefile 
+  516  export ARCH=arm
+  517  sudo apt-get install gcc-arm-linux-gnueabihf
+  518  export CROSS_COMPILE=arm-linux-gnueabihf-
+  519  make
+  520  cat Makefile 
+  521  nano Makefile 
+  522  make
+  523  nano Makefile 
+  524  make all
+  525  cat Makefile 
+  526  cd /
+  527  ls
+  528  cd 
+  529  ls
+  530  nano Mak
+  531  cd embedded_linux/LV3/
+  532  ls
+  533  nano Makefile 
+  534  make
+  535  ls
+  536  nano hello_version.c
+  537  make
+  538  nano hello_version.c
+  539  make
+  540  nano hello_version.c
+  541  make
+  542  nano hello_version.c
+  543  make
+  544  nano hello_version.c
+  545  make
+  546  nano ioctl.c 
+  547  cd
+  548  cd buildroot/output/build/linux-custom/scripts/
+  549  ls
+  550  checkpatch.pl -h
+  551  ./checkpatch.pl -h
+  552  cd
+  553  cd embedded_linux/LV3/
+  554  ls
+  555  nano hello_version.c
+  556  picocom -b 115200 /dev/ttyUSB1
+  557  picocom -b 115200 /dev/ttyUSB0
+  558  sudo picocom -b 115200 /dev/ttyUSB0
+  559  cd embedded_linux/
+  560  git fetch upstream
+  561  ls
+  562  cd LV3/
+  563  ls
+  564  nano hello_version.c
+  565  make
+  566  export ARCH=arm
+  567  export CROSS_COMPILE=arm-linux-gnueabihf-
+  568  make
+  569  nano hello_version.c
+  570  make
+  571  nano hello_version.c
+  572  nano Makefile 
+  573  make
+  574  nano hello_version.c
+  575  make
+  576  nano hello_version.c
+  577  make
+  578  ls
+  579  nano
+  580  ls
+  581  cd read_write_module/
+  582  ls
+  583  nano Makefile 
+  584  make
+  585  nano read_write.c 
+  586  make
+  587  cd ..
+  588  ls
+  589  nano hello_version.c
+  590  cd read_write_module/
+  591  ls
+  592  cd ..
+  593  mkdir char_module
+  594  ls
+  595  cd char_module/
+  596  cd
+  597  cd embedded_linux/
+  598  ls
+  599  git add . -A
+  600  git add .
+  601  cd LV3
+  602  ls
+  603  cd char_module/
+  604  ls
+  605  make
+  606  cd
+  607  cd embedded_linux/
+  608  ls
+  609  git add . -A
+  610  ls -lah
+  611  cd LV3/
+  612  ls
+  613  git help
+  614  git add hello_version.c 
+  615  ls
+  616  git add Makefile 
+  617  git add char_module/
+  618  git add read_write_module/
+  619  git commit -m "lv3 moduli"
+  620  git push origin master
+  621  picocom -b 115200 /dev/ttyUSB0
+  622  sudo picocom -b 115200 /dev/ttyUSB0
+  623  ls
+  624  cd embedded_linux/
+  625  ls
+  626  cd
+  627  ls
+  628  cd buildroot/
+  629  ls
+  630  cd
+  631  ls
+  632  cd embedded_linux/LV2/solutions/nfsroot/root/
+  633  ls
+  634  anaconda-navigator
+  635  cd ~/Downloads/
+  636  bash Anaconda3-5.3.1-Linux-x86_64.sh 
+  637  python3 --version
+  638  python
+  639  pip install opencv-contrib-python
+  640  sudo apt install python-pip
+  641  pip install opencv-contrib-python
+  642  python
+  643  sudo apt-get install python 3.7.0
+  644  sudo apt-get install python3.6
+  645  sudo apt-get install python 3.6
+  646  python3 --version
+  647  python3
+  648  tar -xzf atom-amd64.tar.gz 
+  649  sudo add-apt-repository ppa:webupd8team/atom
+  650  sudo apt update; sudo apt install atom
+  651  atom
+  652  pip3 install -r requirements.txt
+  653  pip install -r requirements.txt
+  654  cd..
+  655  cd--
+  656  cd.
+  657  cd ..
+  658  cd Desktop/
+  659  pip install -r requirements
+  660  pip i
+  661  pip install -r tensorflow==1.10.0
+  662  pip install tensorflow==1.10.0
+  663  pip install scikit_learn==0.19.1
+  664  pip install matplotlib==2.0.2
+  665  pip install glog==0.3.1
+  666  pip install easydict==1.6
+  667  cd..
+  668  cd ..
+  669  ls
+  670  cd Documents/
+  671  ls
+  672  git clone https://github.com/jeremy-shannon/CarND-Traffic-Sign-Classifier-Project.git
+  673  ls
+  674  cd CarND-Traffic-Sign-Classifier-Project/
+  675  ls
+  676  python3 Traffic_Sing_Classifier.ipynb
+  677  atom Traffic_Sign_Classifier.ipynb 
+  678  jupyter notebook Traffic_Sign_Classifier.ipynb 
+  679  cd..
+  680  cd ..
+  681  sudo -H pip install jupyter
+  682  sudo -H pip install --upgrade pip
+  683  sudo -H pip install jupyter
+  684  cd Documents/
+  685  ls
+  686  cd c
+  687  cd CarND-Traffic-Sign-Classifier-Project/
+  688  ls
+  689  jupyter notebook Traffic_Sign_Classifier.ipynb 
+  690  ls
+  691  cd embedded_linux/
+  692  ls
+  693  git status
+  694  git fetch upstream
+  695  ls
+  696  git merge upstream/master
+  697  ls
+  698  cd LV4
+  699  ls
+  700  cd resources/
+  701  ls
+  702  cd nunchuk
+  703  cd ..
+  704  cd LV3/ioctl_module/
+  705  nano ioctl.c
+  706  arm-linux-gnueabihf-gcc -o ioctl ioctl.c -static
+  707  nano ioctl.c
+  708  arm-linux-gnueabihf-gcc -o ioctl ioctl.c -static
+  709  nano char_driver.c
+  710  nano Makefile
+  711  make
+  712  export ARCH=arm
+  713  export CROSS_COMPILE=arm
+  714  -
+  715  linux
+  716  -
+  717  gnueabihf
+  718  export CROSS_COMPILE=arm-linux-gnueabihf-
+  719  make
+  720  cd ..
+  721  cd LV4/resources/
+  722  ls
+  723  nano bcm2709-rpi-2-b-custom.dts 
+  724  cd
+  725  cd buildroot/output/build/linux-custom/
+  726  export ARCH=arm
+  727  export CROSS_COMPILE=arm-linux-gnueabihf-
+  728  make dtbs
+  729  ls
+  730  cd arch/arm/boot/dts
+  731  ls
+  732  sudo cp bcm2710-rpi-3-b-custom.dtb /var/lib/tftpboot/
+  733  cd /var/lib/tftpboot/
+  734  ls
+  735  sudo mv bcm2710-rpi-3-b-custom.dtb bcm2710-rpi-3-b.dtb
+  736  cd
+  737  cd embedded_linux/LV4/resources/
+  738  ls
+  739  cd nunchuk
+  740  ls
+  741  nano nunchuk.c 
+  742  nano Makefile 
+  743  make
+  744  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+  745  nano nunchuk.c
+  746  make
+  747  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+  748  nano nunchuk.c
+  749  make
+  750  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+  751  cd ..
+  752  cd nunchuk_2/
+  753  ls
+  754  nan
+  755  nano nunchuk.c 
+  756  nano Makefile 
+  757  make
+  758  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+  759  nano nunchuk.c
+  760  cd ~/embedded_linux/
+  761  cd LV4
+  762  ls
+  763  mkdir history_files
+  764  cd history_files/
+  765  history > PChistory.txt

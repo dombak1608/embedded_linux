@@ -1,0 +1,1 @@
+cmd_/home/profesor/embedded_linux/LV3/char_module/char_module.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/profesor/embedded_linux/LV3/char_module/char_module.ko /home/profesor/embedded_linux/LV3/char_module/char_module.o /home/profesor/embedded_linux/LV3/char_module/char_module.mod.o ;  true

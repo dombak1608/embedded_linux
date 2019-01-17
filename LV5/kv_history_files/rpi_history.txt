@@ -1,0 +1,65 @@
+ 221 ls
+ 222 rmmod nunchuk.ko 
+ 223 insmod nunchuk.ko 
+ 224 evtest /dev/input/event0 
+ 225 rmmod nunchuk.ko 
+ 226 Äs
+ 227 ls
+ 228 insmod nunchuk.ko 
+ 229 evtest /dev/input/event0 
+ 230 rmmod nunchuk.ko 
+ 231 insmod nunchuk.ko 
+ 232 evtest /dev/input/event0 
+ 233 rmmod nunchuk.ko 
+ 234 ls
+ 235 cd module/
+ 236 ls
+ 237 cd
+ 238 insmod nunchuk.ko 
+ 239 rmmod nunchuk.ko 
+ 240 cd module/
+ 241 ls
+ 242 insmod nunchuk.ko 
+ 243 rmmod nunchuk.ko 
+ 244 cd
+ 245 evtest /dev/input/event0
+ 246 cd
+ 247 rmmod nunchuk.ko 
+ 248 cd module/
+ 249 rmmod nunchuk.ko 
+ 250 ls
+ 251 insmod read_write.ko 
+ 252 rmmod read_write.ko 
+ 253 cd
+ 254 reboot
+ 255 ls
+ 256 ls -Äla
+ 257 ls -l
+ 258 insmod nunchuk.ko 
+ 259 lsmod
+ 260 cd /proc/device-tree/soc/i2c@7e804000/
+ 261 ls
+ 262 cd
+ 263 insmod nunchuk.ko 
+ 264 rmmod nunchuk.ko 
+ 265 insmod nunchuk.ko 
+ 266 lsmod
+ 267 evtest /dev/input/event0 
+ 268 rmmod nunchuk.ko 
+ 269 insmod nunchuk.ko 
+ 270 evtest /dev/input/event0 
+ 271 rmmod nunchuk.ko 
+ 272 insmod nunchuk.ko 
+ 273 rmmod nunchuk.ko 
+ 274 ls
+ 275 insmod nunchukLED.ko 
+ 276 evtest /dev/input/event0 
+ 277 rmmod nunchuk.ko 
+ 278 rmmod nunchukLED.ko 
+ 279 insmod nunchukLED.ko 
+ 280 evtest /dev/input/event0 
+ 281 rmmod nunchukLED.ko 
+ 282 insmod nunchukLED.ko 
+ 283 evtest /dev/input/event0 
+ 284 rmmod nunchukLED.ko 
+ 285 history > rpi_history.txt

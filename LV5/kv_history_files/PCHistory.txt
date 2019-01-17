@@ -1,0 +1,168 @@
+  915  history > PCHistoryLV5_1.txt
+  916  git add LV5/history_files/
+  917  git commit -m "lv5"
+  918  git push master
+  919  git push
+  920  git pull
+  921  git status
+  922  git add LV5/history_files/
+  923  git commit -m "lv5"
+  924  git push
+  925  ls
+  926  cd LV4
+  927  ls
+  928  cd resources/
+  929  ls
+  930  cd nunchuk_2
+  931  ls
+  932  nano nunchuk.c
+  933  cd ~/embedded_linux/
+  934  git pull LV4/resources/nunchuk_2
+  935  git status
+  936  git add LV5/history_files/
+  937  git add LV5/history_files/PCHistoryLV5_1.txt 
+  938  git add LV5/history_files/PCHistoryLV5_2.txt 
+  939  git add LV5/history_files/RPIHistoryLV5.txt 
+  940  git commit -m "lv5"
+  941  git push
+  942  git config --global push.default simple
+  943  git push
+  944  git pull
+  945  git merge
+  946  git commit
+  947  git merge
+  948  git merge master
+  949  git push
+  950  git pull
+  951  git stauts
+  952  git status
+  953  git add LV5/history_files/
+  954  git commit -m "lv5"
+  955  git push
+  956  cd LV5/resources/
+  957  ls
+  958  cd nunchuk/
+  959  ls
+  960  nano nunchuk.c
+  961  make
+  962  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+  963  cd ~/embedded_linux/
+  964  git status
+  965  git commit -m "lv5 izmjenjen nunchuck.c bez acc"
+  966  git push
+  967  cd buildroot/output/build/linux-custom/
+  968  ls
+  969  export ARCH=arm
+  970  export CROSS_COMPILE=arm-linux-gnueabihf-
+  971  make menuconfig
+  972  make -j9
+  973  ls
+  974  cd arch
+  975  ls
+  976  cd arm
+  977  ls
+  978  cd boot/
+  979  ls
+  980  cp zImage /var/lib/tftpboot/
+  981  sudo cp zImage /var/lib/tftpboot/
+  982  cd ~/embedded_linux/
+  983  history > PCHistoryLV5_2.txt
+  984  sudo picocom -b 115200 /dev/ttyUSB0
+  985  ls /dev
+  986  ls -la /dev
+  987  ls /sys/
+  988  cd dev
+  989  ls /sys/dev
+  990  ls /proc
+  991  ls /proc/devices 
+  992  cd /proc
+  993  ls -la
+  994  nano devices 
+  995  git clone https://github.com/pjreddie/darknet
+  996  cd darknet/
+  997  make
+  998  wget https://pjreddie.com/media/files/yolov3.weights
+  999  ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
+ 1000  ./darknet detect cfg/yolov3.cfg yolov3.weights data/traffic.JPG 
+ 1001  ./darknet detect cfg/yolov3.cfg yolov3.weights data/team.jpg 
+ 1002  ./darknet detect cfg/yolov3.cfg yolov3.weights data/traffic.jpg 
+ 1003  cd darknet/
+ 1004  ./darknet detect cfg/yolov3.cfg yolov3.weights data/traffic.jpg 
+ 1005  ./darknet detect cfg/yolov3.cfg yolov3.weights data/traffic.JPG
+ 1006  ./darknet detect cfg/yolov3.cfg yolov3.weights data/promet.jpg
+ 1007  ./darknet detect cfg/yolov3.cfg yolov3.weights data/traffic.JPG
+ 1008  ./darknet detect cfg/yolov3.cfg yolov3.weights data/promet.jpg
+ 1009  ls
+ 1010  cd embedded_linux/
+ 1011  ls
+ 1012  cd LV5/
+ 1013  ls
+ 1014  cd resources/
+ 1015  ls
+ 1016  cd nunchuk/
+ 1017  ls
+ 1018  nano nunchuk.c
+ 1019  make
+ 1020  export ARCH=arm
+ 1021  export CROSS_COMPILE=arm-linux-gnueabihf-
+ 1022  make
+ 1023  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+ 1024  nano nunchuk.c
+ 1025  make
+ 1026  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+ 1027  nano nunchuk.c
+ 1028  make
+ 1029  cp nunchuk.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+ 1030  nano nunchuk.
+ 1031  nano nunchuk.c
+ 1032  cd
+ 1033  cd buildroot/output/build/linux-custom/
+ 1034* 
+ 1035  export CROSS_COMPILE=arm-linux-gnueabihf-
+ 1036  export ARCH=arm
+ 1037  make menuconfig
+ 1038  cd
+ 1039  cd embedded_linux/LV5/resources/
+ 1040  ls
+ 1041  cd nunchuk/
+ 1042  ls
+ 1043  nano nunchuk.c
+ 1044  ls
+ 1045  nano Makefile
+ 1046  cd ..
+ 1047  ls
+ 1048  mkdir nunchuckLED
+ 1049  ls
+ 1050  cd nunchuck
+ 1051  cd nunchuck/
+ 1052  cd nunchuk/
+ 1053  ls
+ 1054  cp nunchukLED.c ~/embedded_linux/LV5/resources/nunchuckLED/
+ 1055  cd ..
+ 1056* 
+ 1057  cp Makefile ~/embedded_linux/LV5/resources/nunchuckLED/
+ 1058  cd ..
+ 1059  cd nunchuckLED/
+ 1060  ls
+ 1061  nano Makefile 
+ 1062  make
+ 1063  ls
+ 1064  cp nunchukLED.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+ 1065  nano nunchukLED.c
+ 1066  git add nunchukLED.c 
+ 1067  git add Makefile 
+ 1068  git status
+ 1069  git commit -m "kv1"
+ 1070  git push
+ 1071  nano nunchukLED.c
+ 1072  make
+ 1073  cp nunchukLED.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+ 1074  nano nunchukLED.c
+ 1075  make
+ 1076  cp nunchukLED.ko ~/embedded_linux/LV2/solutions/nfsroot/root/
+ 1077  cd ..
+ 1078  mkdir history_files
+ 1079  ls
+ 1080  mkdir kv_history_files
+ 1081  cd kv_history_files
+ 1082  history > PCHistory.txt

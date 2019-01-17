@@ -1,0 +1,17 @@
+  871  cd buildroot/output/build/linux-custom/
+  872  ls
+  873  export ARCH=arm
+  874  export CROSS_COMPILE=arm-linux-gnueabihf-
+  875  make menuconfig
+  876  make -j9
+  877  ls
+  878  cd arch
+  879  ls
+  880  cd arm
+  881  ls
+  882  cd boot/
+  883  ls
+  884  cp zImage /var/lib/tftpboot/
+  885  sudo cp zImage /var/lib/tftpboot/
+  886  cd ~/embedded_linux/
+  887  history > PCHistoryLV5_2.txt

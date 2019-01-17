@@ -1,0 +1,1 @@
+cmd_/home/profesor/embedded_linux/LV3/read_write_module/read_write.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/profesor/embedded_linux/LV3/read_write_module/read_write.ko /home/profesor/embedded_linux/LV3/read_write_module/read_write.o /home/profesor/embedded_linux/LV3/read_write_module/read_write.mod.o ;  true
