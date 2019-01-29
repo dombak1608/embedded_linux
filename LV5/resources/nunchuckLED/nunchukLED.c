@@ -86,15 +86,10 @@ nunchuk_poll(struct input_polled_dev *polled_input)
 	input_report_abs(polled_input->input, ABS_Y, joystick[1]);
 	input_sync(polled_input->input);
 	
-	if(accelerometer[0]<612 && accelerometer[0]>412)
-	{
-
+	if(accelerometer[0]>693 || accelerometer[0]<331)
 		gpio_set_value(ledPort,1);
-	}
 	else
-	{
 		gpio_set_value(ledPort,0);
-	}
 }
 
 static int
